@@ -1,3 +1,4 @@
+// Função padronizada para alterar os valores dependendo do que receber
 export function ItemCardapio(props){
   return <div className="container-item-cardapio">
     <div>

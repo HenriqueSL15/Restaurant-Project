@@ -1,5 +1,7 @@
+// Função que cria os botões de navegação
 export function Navegacao(props){
   return <div className="navegacao">
+    {/* Chamo a função atualizaPaginaSelecionada para mudar os valores exibidos */}
     <input type="radio" name="opcao-pagina" id="pagina-0" defaultChecked onClick={() => props.atualizarPaginaSelecionada(0)}/>
     <label htmlFor="pagina-0">Pratos Principais</label>
     <input type="radio" name="opcao-pagina" id="pagina-1" onClick={() => props.atualizarPaginaSelecionada(1)}/>
